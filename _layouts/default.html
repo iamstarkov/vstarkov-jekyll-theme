@@ -1,0 +1,25 @@
+<!doctype html>
+<html dir="LTR" lang="{{ site.locale }}">
+<head>
+	{% include head.html %}
+</head>
+
+<body>
+
+<div class="meny">
+    {% include menu.html %}
+</div>
+
+<div class="meny-arrow"></div>
+
+<div class="container">
+    <div class="content">
+    	{{ content }}
+	</div>
+</div>
+
+{% include meny.html %}
+{% include gauges.html %}
+
+</body>
+</html>
